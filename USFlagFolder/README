@@ -1,6 +1,9 @@
 Sophia Vera
-#Flag Problem
-##APCS Period 4, 2017
+
+==========================
+Flag Problem
+APCS Period 4, 2017
+==========================
 
 	This is the US flag Project. Its purpose it to create a scalable version of the United States flag. This means that it needed multiple components: the classes for drawing the figures on the flag and one for changing the size of the flag. I achieved this by first creating a scalable JApplet, called AmericanFlag, that would modify the proper dimensions of the flag when the flag size was changed. It would then feed those new values into a class called Flag, which would further distribute them to more specialized classes. Because of this, I only had to distribute a couple variables through classes, which I believe kept my code shorter and more concise.
 	Inside of Flag, there exists an object of Stars and an object of Stripes. Flag itself could be combined with AmericanFlag, as Flag doesn't do any computation; however, this would result in an extremely large class that would really serve two separate purposes: changing the applets dimensions and creating and modifying the flag components. I felt that dividing this among two classes would make my code more comprehensible.
